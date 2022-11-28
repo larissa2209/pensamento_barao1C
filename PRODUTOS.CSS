@@ -1,21 +1,64 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nome do site</title>
-</head>
-        <body style="background-color:#cccccc">
-            <img src="SUA IMAGEM.jpg" width="100%">
-            
-            <h1 style="text-align: center">COLOQUE AQUI O NOME DO SEU SITE</h1>
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
 
-            <p style="text-align: center;">Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
 
-            <p style="font-size: 20px; text-align: center";><em>Nossa missão é: <strong style="color: red ;">"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
 
-            <p style="text-align: center;">Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
 
-        </body>
-</html>
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+
